@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  width: 100%;
+  background-color: #faf4ff;
+  padding-top: 130px;
+  position: relative;
+}
+
+h1 {
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  color: #27496d;
+  line-height: 1;
+}
+
+h2 {
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #27496d;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px auto 30px auto;
+}
+
+p {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.mountain {
+  height: 270px;
+  width: 400px;
+}
+
+.top-cloud {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 35%;
+  top: 5%;
+}
+
+.bottom-cloud {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  left: 30%;
+  top: 38%;
+}
+
+.middle-container {
+  background-color: #f3c623;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skill-row {
+  margin: 30px auto 30px auto;
+  width: 50%;
+  display: inline-block;
+  text-align: justify;
+}
+
+.webdev {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.chemistry {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.profile {
+  width: 25%;
+  display: inline-block;
+}
+
+.profile-img {
+  border-radius: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.contact-me {
+  margin: 30px auto 30px auto;
+  width: 50%;
+  display: inline-block;
+  line-height: 2;
+}
+
+hr {
+  color: #EAF6F6;
+  border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+.btn {
+  background-color: #27496d;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 32px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.bottom-container {
+  color: white;
+  text-decoration: none;
+  padding-top: 20px;
+  background-color: #27496d;
+  line-height: 3;
+}
+
+.footer-link {
+  color: white;
+  padding-right: 30px;
+  text-decoration: none;
+}
+.footer-link:hover {
+color: grey;
+
+}
